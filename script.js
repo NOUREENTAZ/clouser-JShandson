@@ -45,15 +45,17 @@
 
  //Q.4 
 
- // function Length(L){
- //     function height(H){
- //         console.log(L*H);
- //     }
- //     height(10);
- // }
- // length(10);
-
+ function Length(L) {
+     function height(H) {
+         console.log(L * H);
+     }
+     height(100);
+ }
+ Length(10);
  //Q.5 
+
+
+
  function counter() {
      var counter = 0;
 
@@ -63,12 +65,11 @@
 
      return IncreaseCounter;
  }
- var counter = counter();
- console.log(counter());
- console.log(counter());
- console.log(counter());
- console.log(counter());
- "
+ var counter1 = counter();
+ console.log(counter1);
+ console.log(counter1);
+ console.log(counter1);
+ console.log(counter1);
 
 
 
